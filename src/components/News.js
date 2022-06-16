@@ -47,7 +47,7 @@ const News = (props) => {
 
   return (
     <div className="min-h-[35vh] mt-24">
-      <h1 className="text-indigo-800 mx-10 my-6 text-4xl font-mono text-center">
+      <h1 className="text-indigo-800 mx-10 my-6 text-4xl font-serif text-center">
         NewsMonkey - Top {capitalizeFirstLetter(props.category)} Headlines
       </h1>
       {loading}
